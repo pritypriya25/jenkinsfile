@@ -4,7 +4,7 @@ echo 'This is stage 1--------'
 }
   stage('stage2'){
   echo 'This is stage 2--------'
-  sh 'npm install express'
+  sh 'docker --version'
   }
   stage('stage3'){
   echo 'This is stage 3--------'
